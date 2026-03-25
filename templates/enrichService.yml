@@ -1,7 +1,7 @@
 # enrichService.yml
 
 - identifier: "{{ service_identifier }}"
-  blueprint: service 
+  blueprint: orgRepository 
   properties:
     type: "{{ service_type }}"
     lifecycle: "{{ service_lifecycle }}"
